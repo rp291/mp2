@@ -11,6 +11,7 @@ function App() {
     <>
       <NavBar />
       <Routes>
+        
 
         <Route path="/list" element={<PokemonList />} />
         <Route path="/gallery" element={<PokemonGallery />} />
